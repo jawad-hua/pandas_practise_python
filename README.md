@@ -1,89 +1,90 @@
-```markdown
 # 📊 Pandas & Data Analysis Practice Repository
 
-> A comprehensive collection of my data analysis practice using Python's most powerful libraries - Pandas, NumPy, Matplotlib, and Seaborn.
+> A comprehensive collection of my data analysis practice using Python's most powerful libraries - **Pandas, NumPy, Matplotlib, and Seaborn.**
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-Latest-green.svg)
-![NumPy](https://img.shields.io/badge/NumPy-Latest-orange.svg)
-![Seaborn](https://img.shields.io/badge/Seaborn-Latest-red.svg)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-Latest-green.svg" alt="Pandas">
+  <img src="https://img.shields.io/badge/NumPy-Latest-orange.svg" alt="NumPy">
+  <img src="https://img.shields.io/badge/Seaborn-Latest-red.svg" alt="Seaborn">
+</p>
 
 ## 🎯 Project Overview
 
 This repository showcases my journey in mastering data analysis with Python. I've practiced on **6+ real-world datasets** covering various domains including aviation, finance, wine quality, retail, and the famous Titanic dataset.
 
-
+---
 
 ## 🚀 What I've Learned & Practiced
 
 ### 📌 1. Pandas Series Mastery
 ```python
-✅ Creating Series from lists, dictionaries, and arrays
-✅ Custom indexing and labeling
-✅ Statistical operations (sum, mean, max, min, std)
-✅ Data filtering with boolean indexing
-✅ Series multiplication and transformation
-✅ Using describe() for quick statistical summary
+* ✅ Creating Series from lists, dictionaries, and arrays
+* ✅ Custom indexing and labeling
+* ✅ Statistical operations (sum, mean, max, min, std)
+* ✅ Data filtering with boolean indexing
+* ✅ Series multiplication and transformation
+* ✅ Using `describe()` for quick statistical summary
 ```
 
 ### 📌 2. Pandas DataFrame Operations
 ```python
-✅ Creating DataFrames from dictionaries
-✅ Loading data from CSV files
-✅ Exploring data structure (shape, dtypes, columns, index)
-✅ Advanced indexing with loc and iloc
-✅ Conditional filtering and multi-condition queries
-✅ Setting and resetting index
-✅ Multi-level indexing
-✅ Using isin() for categorical filtering
+* ✅ Creating DataFrames from dictionaries
+* ✅ Loading data from CSV files
+* ✅ Exploring data structure (`shape`, `dtypes`, `columns`, `index`)
+* ✅ Advanced indexing with `loc` and `iloc`
+* ✅ Conditional filtering and multi-condition queries
+* ✅ Setting and resetting index
+* ✅ Multi-level indexing
+* ✅ Using `isin()` for categorical filtering
 ```
 
 ### 📌 3. Data Exploration Techniques
 ```python
-✅ head() & tail() - Quick data preview
-✅ sample() - Random data sampling
-✅ shape - Dataset dimensions
-✅ describe() - Statistical summary
-✅ info() - Data types and memory usage
-✅ unique() & nunique() - Unique value analysis
-✅ value_counts() - Frequency distribution
-✅ Handling missing values with isnull()
+* ✅ `head()` & `tail()` - Quick data preview
+* ✅ `sample()` - Random data sampling
+* ✅ `shape` - Dataset dimensions
+* ✅ `describe()` - Statistical summary
+* ✅ `info()` - Data types and memory usage
+* ✅ `unique()` & `nunique()` - Unique value analysis
+* ✅ `value_counts()` - Frequency distribution
+* ✅ Handling missing values with `isnull()`
 ```
 
 ### 📌 4. Data Manipulation & Transformation
 ```python
-✅ Sorting data with sort_values()
-✅ Finding top/bottom records with nlargest() & nsmallest()
-✅ Applying functions with apply()
-✅ Custom labeling with conditional logic
-✅ String manipulation (converting to uppercase)
-✅ Creating new calculated columns
-✅ Filling missing values with fillna()
-✅ Duplicate detection with duplicated()
+* ✅ Sorting data with `sort_values()`
+* ✅ Finding top/bottom records with `nlargest()` & `nsmallest()`
+* ✅ Applying functions with `apply()`
+* ✅ Custom labeling with conditional logic
+* ✅ String manipulation (converting to uppercase)
+* ✅ Creating new calculated columns
+* ✅ Filling missing values with `fillna()`
+* ✅ Duplicate detection with `duplicated()`
 ```
 
 ### 📌 5. Advanced Analytics
 ```python
-✅ GroupBy operations for aggregated analysis
-✅ Multi-condition filtering with & operator
-✅ Statistical measures (mean, median, percentile)
-✅ Mathematical operations (sqrt, log)
-✅ Finding maximum value index with idxmax()
-✅ Survival rate analysis
-✅ Gender-based statistical comparison
+* ✅ GroupBy operations for aggregated analysis
+* ✅ Multi-condition filtering with `&` operator
+* ✅ Statistical measures (mean, median, percentile)
+* ✅ Mathematical operations (`sqrt`, `log`)
+* ✅ Finding maximum value index with `idxmax()`
+* ✅ Survival rate analysis
+* ✅ Gender-based statistical comparison
 ```
 
 ### 📌 6. Data Visualization
 ```python
-✅ Histograms with KDE (Kernel Density Estimation)
-✅ Count plots for categorical data
-✅ Box plots for distribution analysis
-✅ Scatter plots for correlation visualization
-✅ Using Seaborn for beautiful statistical plots
-✅ Matplotlib integration
+* ✅ Histograms with KDE (Kernel Density Estimation)
+* ✅ Count plots for categorical data
+* ✅ Box plots for distribution analysis
+* ✅ Scatter plots for correlation visualization
+* ✅ Using Seaborn for beautiful statistical plots
+* ✅ Matplotlib integration
 ```
 
-
+---
 
 ## 📁 Datasets Analyzed
 
@@ -188,7 +189,7 @@ This repository showcases my journey in mastering data analysis with Python. I'v
 
 ---
 
-##  Key Skills Demonstrated
+## Key Skills Demonstrated
 
 ### Data Cleaning
 - ✅ Handling missing values
@@ -215,6 +216,7 @@ This repository showcases my journey in mastering data analysis with Python. I'v
 - ✅ Conditional labeling
 
 ---
+
 
 ## 📊 Visualization Examples
 
@@ -314,17 +316,6 @@ pandas-practice/
 
 ---
 
-## 🎯 Next Steps & Future Improvements
-
-- [ ] Convert code to Jupyter Notebooks for better documentation
-- [ ] Add more visualization examples
-- [ ] Implement machine learning models on these datasets
-- [ ] Create interactive dashboards with Plotly
-- [ ] Add data preprocessing pipelines
-- [ ] Document insights in separate markdown files
-- [ ] Add unit tests for data validation
-
----
 
 ## 📈 Practice Statistics
 
@@ -383,4 +374,3 @@ Made with ❤️ and Python
 ```
 
 ---
-
