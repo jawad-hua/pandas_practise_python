@@ -303,7 +303,7 @@ pandas-practice/
 ├── README.md           # This file
 ├── requirements.txt    # Python dependencies
 │
-└── datasets/          # Place your CSV files here
+└── datasets/          
     ├── airline_ticket_prices_dataset.csv
     ├── winequalityN.csv
     ├── loan_dataset_20000.csv
